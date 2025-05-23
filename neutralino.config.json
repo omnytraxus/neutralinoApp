@@ -1,0 +1,23 @@
+{
+  "applicationId": "com.example.myapp",
+  "defaultMode": "window",
+  "documentRoot": "/dist/",
+  "url": "/",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "nativeAllowList": ["os.*"],
+  "port": 3001,
+  "modes": {
+    "window": {
+      "title": "My App",
+      "width": 1200,
+      "height": 800,
+      "icon": "/resources/icons/appIcon.png"
+    }
+  },
+  "cli": {
+    "resourcesPath": "/resources/",
+    "clientLibrary": "/resources/js/neutralino.js",
+    "exportAuthInfo": true
+  }
+}

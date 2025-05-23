@@ -1,0 +1,28 @@
+# Зависимости
+node_modules/
+# Файлы neutralino
+.tmp/
+bin/
+
+# Логи и временные файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+neutralinojs.log*
+.pnpm-debug.log*
+
+# Файлы окружения
+.env
+.env.local
+.env*.local
+
+# Сборка
+dist/
+build/
+.out/
+.next/
+
+# Настройки IDE
+.idea/
+.vscode/
+*.swp

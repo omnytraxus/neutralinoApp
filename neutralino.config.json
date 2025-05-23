@@ -5,7 +5,9 @@
   "url": "/",
   "enableServer": true,
   "enableNativeAPI": true,
-  "nativeAllowList": ["os.*"],
+  "nativeAllowList": [
+    "os.*"
+  ],
   "port": 3001,
   "modes": {
     "window": {
@@ -18,6 +20,8 @@
   "cli": {
     "resourcesPath": "/resources/",
     "clientLibrary": "/resources/js/neutralino.js",
-    "exportAuthInfo": true
+    "exportAuthInfo": true,
+    "binaryVersion": "6.0.0",
+    "clientVersion": "6.0.0"
   }
 }
